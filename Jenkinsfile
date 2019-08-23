@@ -3,11 +3,12 @@ pipeline{
     agent any
     
     stages{
-        stage('³õÊ¼»¯¹¹½¨'){
+        stage('Â³ÃµÃŠÂ¼Â»Â¯Â¹Â¹Â½Â¨'){
             
             steps{
                 
-                echo 'Hello World! ¿¿git¿¿¿'
+                echo 'Hello World!'
+                echo 'ä»githubè·å–pipelineæ–‡ä»¶'
                 
             }
             
