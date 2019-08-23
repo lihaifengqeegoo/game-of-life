@@ -3,12 +3,12 @@ pipeline{
     agent any
     
     stages{
-        stage('³õÊ¼»¯¹¹½¨'){
+        stage('初始化构建环境'){
             
             steps{
                 
-                echo 'Hello World!'
-                echo '从github获取pipeline文件'
+                echo "Hello World!"
+                echo "从github获取pipeline文件"
                 
             }
             
